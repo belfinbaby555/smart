@@ -1,0 +1,72 @@
+html,body{
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #eef6feff;
+    margin: 0px 10px;
+}
+nav{
+    height:60px;
+    width: 100%;
+    background-image: url("Nmae.jpg");
+    background-position: center;
+    background-size:50%;
+    background-repeat: no-repeat;
+    margin: 20px 0px;
+    display: flex;
+}
+nav > img{
+    height: 50px;
+    height: fit-content;
+    margin: auto;
+    margin-right: 0px;
+}
+.scaned{
+    display:flex ;
+    flex-direction: column;
+}
+.scaned > h2{
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 0;
+    color: rgb(43, 43, 43);
+    width: 100%;
+    height: fit-content;
+
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid rgb(221, 221, 221);
+    margin-bottom: 5px;
+}
+.item > p{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.item > span{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-right: 0;
+    justify-content: space-around;
+}
+.item > span > b{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.item > span > p{
+    font-size: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+    width: fit-content;
+    margin: auto;
+    margin-right: 0%;
+}
