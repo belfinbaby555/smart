@@ -27,7 +27,7 @@ nav > img{
 }
 .scaned > h2{
     font-weight: 500;
-    font-size: 26px;
+    font-size: 52px;
     margin-top: 0;
     color: rgb(43, 43, 43);
     width: 100%;
@@ -46,7 +46,7 @@ nav > img{
     margin-bottom: 5px;
 }
 .item > p{
-    font-size: 18px;
+    font-size: 26px;
     text-transform: capitalize;
 }
 .item > span{
@@ -57,15 +57,14 @@ nav > img{
     justify-content:space-around
 }
 .item > span > b{
-    font-size: 17px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
     margin: auto;
 }
 .item > span > p{
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 400;
-    font-size: 15px;
     color: rgb(68, 68, 68);
     width: fit-content;
     margin: auto;
@@ -73,10 +72,10 @@ nav > img{
 }
 .scaned > a > button,#pay > button{
     width: 100%;
-    height:40px ;
+    height:80px ;
     background-color: #4285F4;
     color: white;
-    font-size: 15px;
+    font-size: 30px;
     outline: 0;
     border: 0;
     border-radius: 10px;
@@ -104,7 +103,7 @@ nav > img{
 }
 .total > p{
     color: rgb(90, 90, 90);
-    font-size: 15px;
+    font-size: 30px;
     margin: 10px 0px;
 }
 .total > p > b{
