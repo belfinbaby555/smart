@@ -71,7 +71,7 @@ nav > img{
     margin: auto;
     margin-right: 0%;
 }
-.scaned > a > button{
+.scaned > a > button,#pay > button{
     width: 100%;
     height:40px ;
     background-color: #4285F4;
